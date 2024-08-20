@@ -1,0 +1,37 @@
+.tags-page-container {
+  margin-left: 250px;
+  padding: 20px;
+}
+
+.custom-tag-card {
+  color: #383f51;
+  text-decoration: none;
+  border-radius: 8px;
+  border-color: #383f51;
+  transition: transform 0.3s ease-in-out;
+  height: 100%;
+}
+
+.custom-tag-card:hover {
+  transform: translateY(-5px);
+}
+
+.custom-card-body {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.custom-tag-text {
+  color: #000;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.custom-tag-count {
+  color: #666;
+  font-size: 0.9rem;
+}

@@ -1,0 +1,37 @@
+# Dependency directories
+/frontend/node_modules
+/backend/node_modules
+
+# Production build directory
+/frontend/build
+/backend/build
+
+# Coverage directory used by tools like istanbul
+/frontend/coverage
+/backend/coverage
+
+# .env file containing environment variables
+/frontend/.env
+/backend/.env
+
+# Editor directories and files
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+.DS_Store
+
+# Logs
+*.log
+
+# Cache
+*.cache
+
+# Ignore __pycache__ files
+__pycache__/
+*.pyc
+
+# Ignore virtual environment files
+backend/blogit

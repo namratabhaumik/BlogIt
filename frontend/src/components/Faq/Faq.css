@@ -1,0 +1,46 @@
+.faq-container {
+  padding-top: 17px; /* Adjust for fixed header */
+  padding-right: 25px; /* Adjust for fixed header */
+  padding-left: 75px; /* Adjusted padding for vertical navigation bar */
+  padding-bottom: 25px; /* Added padding for consistency */
+}
+
+.faq-section {
+  background-color: #DDDBF1; /* LevenderWeb */
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+.faq-title {
+  color: #383F51; /* Charcoal */
+  font-size: 2rem; /* Adjusted font size for better visibility */
+}
+
+.faq-subtitle {
+  color: #3C4F76; /* YinMin Blue */
+  font-size: 1.2rem; /* Adjusted font size for better visibility */
+}
+
+.accordion-item {
+  margin-bottom: 1rem; /* Add space between each accordion item */
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #D1BEB0; /* Dun */
+  color: #3C4F76; /* YinMin Blue */
+}
+
+.accordion-button {
+  color: #383F51; /* Charcoal */
+}
+
+.accordion-body {
+  background-color: #F5F5F5; /* Light grey for body */
+  color: #383F51; /* Charcoal */
+}
+
+.faq-icon {
+  color: #3C4F76; /* YinMin Blue */
+  margin-right: 0.5rem;
+  font-size: 1.25rem; /* Adjusted icon size for better visibility */
+}

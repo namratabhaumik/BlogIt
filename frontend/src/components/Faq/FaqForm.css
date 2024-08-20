@@ -1,0 +1,33 @@
+/* components/Faq/FaqForm.css */
+
+.faq-form-container {
+    background-color: #D1BEB0; /* Dun */
+    padding: 2rem;
+    border-radius: 8px;
+    margin-top: 2rem;
+  }
+  
+  .faq-form-title {
+    color: #383F51; /* Charcoal */
+    margin-bottom: 1.5rem;
+  }
+  
+  .faq-form-button {
+    background-color: #3C4F76; /* YinMin Blue */
+    border-color: #3C4F76;
+    color: #383F51; /* Charcoal */
+    margin-top: 1rem;
+  }
+  
+  .faq-form-button:hover {
+    background-color: #DDDBF1; /* LevenderWeb */
+    border-color: #3C4F76;
+    color: #3C4F76; /* YinMin Blue */
+  }
+
+  .faq-form-lable {
+    margin-top: 0.5rem;
+  }
+  
+  
+  

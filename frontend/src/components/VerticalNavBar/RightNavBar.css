@@ -1,0 +1,105 @@
+/* Ensure the sidebar is always visible on larger screens */
+.right-nav {
+    position: fixed;
+    right: 0;
+    top: 60px; /* Adjust based on the height of your sticky header */
+    width: 250px;
+    height: calc(100vh - 60px); /* Adjust based on the height of your sticky header */
+    background-color: #f8f9fa;
+    padding: 20px;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    z-index: 1000;
+    transform: translateX(0); /* Show by default */
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* Sidebar is always visible on larger screens */
+  .right-nav.collapsed {
+    transform: translateX(0); /* Do not hide on larger screens */
+  }
+  
+  .right-nav-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .right-nav-description {
+    font-size: 1em;
+    color: #333;
+  }
+  
+  .analysis-button {
+    margin-top: 20px;
+    background-color: #383F51;
+    color: #ffffff;
+    border: none;
+  }
+  
+  .custom-toast-container {
+    position: fixed;
+    top: 5rem;
+    right: 1rem;
+    z-index: 1001;
+  }
+  
+  /* Overlay styles */
+  .overlay {
+    position: fixed;
+    top: 60px; /* Adjust based on the height of your sticky header */
+    right: 0;
+    width: 250px;
+    height: calc(100vh - 60px); /* Adjust based on the height of your sticky header */
+    background-color: #f8f9fa;
+    padding: 20px;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+    transform: translateX(100%);
+    transition: transform 0.3s ease;
+    z-index: 1000;
+  }
+  
+  .overlay.open {
+    transform: translateX(0);
+  }
+  
+  .overlay-toggle-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #383f51;
+    color: #dddbf1;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+    z-index: 1001;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Hide the toggle button on larger screens */
+    display: none;
+  }
+  
+  /* Centering dots in the toggle button */
+  .overlay-toggle-button::before {
+    font-size: 24px;
+    color: #dddbf1;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .right-nav {
+      display: none; /* Hide the sidebar on small screens */
+    }
+    
+    .overlay {
+      display: block; /* Show overlay on small screens */
+    }
+    
+    .overlay-toggle-button {
+      display: flex; /* Show the toggle button on small screens */
+    }
+  }
+  

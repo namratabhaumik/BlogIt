@@ -1,0 +1,26 @@
+.center-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    border-color: #383F51 !important;
+  }
+  
+  .center-card .card {
+    width: 90%;
+    max-width: 800px;
+  }
+
+  .my-4 {
+    border: 1px solid #383F51 !important;
+  }
+  
+  .card-img-top {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .blog-post-tags {
+    color: #3C4F76;
+  }
+  

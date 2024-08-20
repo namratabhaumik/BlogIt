@@ -1,0 +1,49 @@
+.btn-primary {
+  background-color: #3C4F76 !important;
+  border-color: #3C4F76 !important;
+  color: #DDDBF1 !important;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+  background-color: #383F51 !important;
+  border-color: #383F51 !important;
+  color: #DDDBF1 !important;
+}
+
+.App-Button {
+    background-color: #3C4F76 !important;
+    border-color: #3C4F76 !important;
+    color: #DDDBF1 !important;
+}
+
+.App-Button:hover {
+    background-color: #383F51 !important;
+    border-color: #383F51 !important;
+    color: #DDDBF1 !important;
+}
+
+.nav-tabs .nav-item .nav-link {
+  background-color: #3C4F76 !important;
+  color: #DDDBF1 !important; 
+}
+
+.nav-tabs .nav-item .nav-link.active {
+  background-color: #3C4F76 !important;
+  color: #DDDBF1 !important;
+}
+
+.nav.nav-pills .nav-link {
+  color: #383F51 !important;
+}
+
+.nav.nav-pills .nav-link.active {
+  background-color: #3C4F76 !important;
+  color: #DDDBF1 !important;
+}
+
+.dropdown-item:active {
+    background-color: #DDDBF1 !important;
+}

@@ -1,0 +1,66 @@
+.bg-color-lavender {
+    background-color: #DDDBF1 !important;
+    padding-left: 20px !important;
+    margin-bottom: 4px;
+    padding-right: 40px !important;
+}
+
+.navbar-logo {
+    height: 50px !important;
+}
+
+#nav-profile-dropdown .rounded-circle {
+    border: 3px solid #D1BEB0 !important;
+}
+
+.rounded-pill {
+    border: 1px solid #3C4F76 !important;
+    color: #3C4F76 !important;
+}
+
+.rounded-pill:hover {
+    border: 1px solid #DDDBF1 !important;
+    color: #DDDBF1 !important;
+    background-color: #3C4F76 !important;
+}
+
+.custom-modal .modal-content {
+    background-color: #DDDBF1 !important;
+}
+
+.custom-modal .modal-header,
+.custom-modal .modal-footer {
+  border-color: #3C4F76;
+}
+
+.Modal-Button {
+    background-color: #D1BEB0 !important;
+    color: #000000 !important;
+    border-color: #D1BEB0 !important;
+}
+
+.Modal-Button:hover{
+    background-color: #AB9F9D !important;
+    color: #000000 !important;
+    border-color: #AB9F9D !important;
+}
+
+.dropdown-toggle:after {
+    display: none !important;
+}
+
+.dropdown-menu {
+    right: 0 !important;
+    left: auto !important;
+}
+  
+.flex{
+    display: flex;
+}
+
+.flex-col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}

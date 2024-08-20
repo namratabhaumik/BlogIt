@@ -1,0 +1,25 @@
+{
+    "notificationData" : [
+        {
+            "id": 1,
+            "username": "John Doe",
+            "title": "replied your post",
+            "time": "1 hours ago",
+            "photo": "/user avatar.png"
+        },
+        {
+            "id": 2,
+            "username": "John Dew",
+            "title": "replied your post",
+            "time": "2 hours ago",
+            "photo": "/user avatar.png"
+        },
+        {
+            "id": 3,
+            "username": "Rifat Doe",
+            "title": "replied your post",
+            "time": "1 hours ago",
+            "photo": "/user avatar.png"
+        }
+    ]
+}

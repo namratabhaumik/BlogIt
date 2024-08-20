@@ -1,0 +1,21 @@
+.blog-feed-item-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 10px !important;
+}
+
+.blog-feed-item-tags {
+    font-size: 12px;
+    color: #383f51;
+}
+
+.blog-feed-item {
+    cursor: pointer;
+    margin: auto;
+    border: 1px solid #383f51 !important;
+}
+
+.card-body {
+    border: 0px !important;
+}

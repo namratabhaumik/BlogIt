@@ -1,0 +1,90 @@
+.community-page-container {
+  padding-top: 17px;
+  padding-right: 25px;
+  padding-left: calc(225px + var(--bs-gutter-x));
+  /* Adjusted for navbar width + Bootstrap gutter */
+  padding-bottom: 25px;
+  transition: padding-left 0.3s ease-in-out;
+}
+
+@media (max-width: 768px) {
+  .community-page-container {
+    padding-left: calc(175px + var(--bs-gutter-x));
+    /* Adjusted for smaller navbar width on smaller screens */
+  }
+}
+
+/* Title styling for the community page */
+.community-title {
+  color: #383F51;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Styling for community cards */
+.community-card {
+  cursor: pointer;
+  transition: transform 0.2s;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  /* Adds a slight shadow for depth */
+  border-radius: 8px;
+  /* Rounds the corners of the cards */
+  margin-bottom: 20px;
+  /* Space between cards */
+}
+
+/* Hover effect for community cards */
+.community-card:hover {
+  transform: scale(1.05);
+}
+
+/* Styling for the button to create a new community */
+.create-community-button {
+  background-color: #D1BEB0;
+  color: #383F51;
+  border: none;
+  font-size: 1.25rem;
+}
+
+/* Right Nav Bar styling */
+.right-nav {
+  position: fixed;
+  right: 0;
+  top: 60px;
+  /* Aligns with the top nav bar */
+  width: 275px;
+  /* Fixed width for the right nav bar */
+  height: calc(100vh - 60px);
+  /* Full height minus the top nav bar */
+  background-color: #f8f9fa;
+  padding: 20px;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+  /* Ensures content can scroll if it overflows */
+}
+
+/* Title styling within the right nav bar */
+.right-nav-title {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #383F51;
+}
+
+/* Description styling within the right nav bar */
+.right-nav-description {
+  font-size: 1em;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/* Media query for responsive design */
+
+  .right-nav {
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 0;
+    right: 0;
+    box-shadow: none;
+    padding: 15px;
+  }

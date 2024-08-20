@@ -1,0 +1,37 @@
+.video-feed-item-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 10px !important;
+}
+
+.video-feed-item-tags {
+    font-size: 12px;
+}
+
+.position-relative {
+    position: relative;
+}
+  
+.video-time {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 4px 8px;
+    font-size: 12px;
+    border-radius: 4px;
+}
+
+.video-feed-item {
+    border: 1px solid #383F51 !important;
+}
+
+.video-author-name {
+    color: #9E9E9E;
+}
+
+.video-feed-item:hover {
+    cursor: pointer;
+}

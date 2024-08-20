@@ -1,0 +1,11 @@
+.community-detail-container {
+  margin-left: 250px; /* Adjust based on RightNavBar width */
+  padding-top: 20px;
+  position: relative; /* Ensure it is positioned relative to ensure z-index works */
+  z-index: 1; /* Ensure it is below the RightNavBar */
+}
+
+
+.blog-feed-container {
+  margin-top: 20px;
+}
