@@ -80,6 +80,7 @@ Users would be drawn to **BlogIt** for several reasons:
 
 - **Client-Side Languages**: HTML 5, CSS, JavaScript, Bootstrap, React
 - **Server-Side Languages**: Python (Flask)
+- **Databases**: Mongodb, Firestore
 
 ## Conclusion
 
