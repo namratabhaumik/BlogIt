@@ -6,6 +6,11 @@
 
 I collaborated in designing and developing this application along with five other members at my university.
 
+## Medium Links
+
+- [React, Flask, and Everything in Between: My Full-Stack Experience](https://namrata-bhaumik.medium.com/hey-there-fellow-developers-and-curious-minds-93dfef002c6c?source=friends_link&sk=831bfd4c859c63fadfd8c491b6c98387)
+- [From Idea to Launch: The Story of BlogIt](https://namrata-bhaumik.medium.com/from-idea-to-launch-the-story-of-blogit-d14da2012d40?source=friends_link&sk=40675e361f49ebecb8ee2f28b70c8b30)
+
 ### [Live Project URL](https://grp12-blogit.netlify.app/) + Screenshots added below for reference
 
 ## Project Background
