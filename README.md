@@ -6,7 +6,7 @@
 
 I collaborated in designing and developing this application along with five other members at my university.
 
-### [Live Project URL](https://grp12-blogit.netlify.app/)
+### [Live Project URL](https://grp12-blogit.netlify.app/) + Screenshots added below for reference
 
 ## Project Background
 
